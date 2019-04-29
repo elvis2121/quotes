@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Quotes } from '../quotes'
+
 @Component({
   selector: 'app-voting',
   templateUrl: './voting.component.html',
@@ -13,6 +13,15 @@ export class VotingComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+  }
+  upVote(vote){
+    this.vote+=1
+    console.log(vote)
+  }
+
+  downVote(vote2){
+    this.vote2-=1
+    
   }
 
   
