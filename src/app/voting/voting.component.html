@@ -1,3 +1,15 @@
 
-
-
+<div class="container">
+    <button (click)="upVote(vote)"  type="button" id="upvote" class="btn btn-default btn-sm">
+      <span class="glyphicon glyphicon-chevron-up"></span> vote
+    </button>
+    <h4 id="upvote_count">{{vote}}</h4>
+  </div>
+  
+  <div class="container">
+      <button (click)="downVote(vote2)"  type="button" id="downvote" class="btn btn-default btn-sm">
+        <span class="glyphicon glyphicon-chevron-up"></span> vote
+      </button>
+      <h4 id="downvote_count">{{vote2}}</h4>
+    </div>
+  

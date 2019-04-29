@@ -6,6 +6,8 @@ import { Quotes } from '../quotes'
   styleUrls: ['./voting.component.css']
 })
 export class VotingComponent implements OnInit {
+  public vote = 0;
+  public vote2 = 0;
   
 
   constructor() { }
