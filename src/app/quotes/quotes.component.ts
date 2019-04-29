@@ -8,14 +8,14 @@ import { Quotes } from '../quotes'
 })
 export class QuotesComponent implements OnInit {
   saying = new Quotes
-   public quote1:string
-   public author1:string
-   public submitter:string
-   public date: Date
-   public date2:Date
-   public result: string[]
-   public result1: string[]
-   public result2: string[]
+  public quote1:string
+  public author1:string
+  public submitter:string
+  public date: Date
+  public date2:Date
+  public result: string[]
+  public result1: string[]
+  public result2: string[]
    
 
 
