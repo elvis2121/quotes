@@ -1,0 +1,39 @@
+@import url('https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css');
+
+#upvote{
+    position: absolute;
+    top:420px;
+    left:1350px;
+    
+}
+
+#downvote{
+    position: absolute;
+    top:470px;
+    left: 1350px;
+}
+
+#upvote_count{
+    position: absolute;
+    top:400px;
+    left: 1420px;
+    border: 1px solid red;
+    color: black;
+    font-size: 30px;
+}
+
+#downvote_count{
+    position: absolute;
+    top:470px;
+    left: 1420px;
+    border: 1px solid red;
+    color: black;
+    font-size: 30px
+}
+
+#vote{
+    position: absolute;
+    top:350px;
+    left: 1420px;
+    border: 1px solid red;
+}
