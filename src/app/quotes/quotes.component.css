@@ -31,3 +31,9 @@
     font-family: Arial, Helvetica, sans-serif;
 
 }
+
+#quotes_header{
+    margin-left: 40%;
+    font-size: 40px;
+    color:black;
+}
