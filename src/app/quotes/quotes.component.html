@@ -3,8 +3,8 @@
   <form #quotesform="ngForm" (ngSubmit)="onClickSubmit(saying)">
     <div class="form-group">
       <label for="Quote">Quote:</label>
-      <input type="text" [(ngModel)]="saying.quote" class="form-control" id="quote" placeholder="Enter Quote"
-        name="quote">
+      <textarea cols="15" rows="5" [(ngModel)]="saying.quote" class="form-control" id="quote" placeholder="Enter Quote"
+        name="quote"></textarea>
     </div>
     <div class="form-group">
       <label for="Author">Author:</label>
