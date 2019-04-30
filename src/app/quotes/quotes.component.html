@@ -25,14 +25,17 @@
 <br>
 
 <div  class="container">
+  
 
   <div class="container">
 
-    <div appBackground class="jumbotron">
+    <div *ngFor='let g of quotes' appBackground class="jumbotron">
+        <app-voting></app-voting>
+        
 
-      <h2>{{result}} </h2>
-      <h2>{{result1}} </h2>
-      <h2>{{result2}} </h2>
+      <h2>{{g.quote}} </h2>
+      <h2>{{g.author}} </h2>
+      <h2>{{g.submittedby}} </h2>
       <h2>{{date | date:'short'}} </h2>
 
     </div>
